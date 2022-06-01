@@ -1,0 +1,58 @@
+*{
+    margin:0;
+}
+.nav-main{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 23px;
+}
+.logoyt{
+    height: 20px;
+    width: 90px;
+    margin-left: -70px;
+}
+.voice, .bell{
+    width: 34px;
+    height: 34px;
+}
+.search{
+    padding: 0px 150px 0px 0px;
+}
+.voice{
+    margin-left: -140px;
+}
+.videos-section{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #f0f2f5;
+}
+.videos{   
+margin: 10px;
+}
+.image{
+    background-color: grey;
+}
+.logo{
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-right:1rem;
+    cursor: pointer;
+    background-color: grey;
+}
+h5{
+    font-size: 1rem;
+    cursor: pointer;
+}
+.channel{
+    margin-left: 3rem;
+   font-size: 0.7rem;
+   cursor: pointer;
+   
+}
+.detail{
+    margin-left: 3rem;
+    font-size: 0.7rem;
+    margin-top: -5px;
+    cursor: pointer;
+}
