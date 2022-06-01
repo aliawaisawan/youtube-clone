@@ -1,5 +1,8 @@
 *{
-    margin:0;
+    margin: 0px;
+}
+.container{
+    margin-top: 70px;
 }
 .nav-main{
     list-style: none;
@@ -10,17 +13,30 @@
 .logoyt{
     height: 20px;
     width: 90px;
-    margin-left: -70px;
+    margin-left: 60px;
 }
 .voice, .bell{
     width: 34px;
     height: 34px;
 }
-.search{
-    padding: 0px 150px 0px 0px;
+.cam{
+    margin-left: 100px;
+}
+.mic{
+    width:40px;
+    height: 34px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.bell{
+   margin: 10px;
+   margin-top: 0px;
+}
+.sbar{
+    width:500px;
 }
 .voice{
-    margin-left: -140px;
+    margin-left: 10px;
 }
 .videos-section{
     display:flex;
