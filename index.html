@@ -1,142 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
-    <title>YouTube</title>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="icon" type="image/x-icon" href="pageicon.png">
+   <title>YouTube</title>
 </head>
+
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
-        <a class="navbar-brand" href="#"><img class="logoyt" src="logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+   <nav class="navbar fixed-top navbar-expand navbar-light bg-white">
+      <a class="navbar-brand" href="#"><img class="logoyt" src="logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
+         aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+         <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
             <li class="nav-item active">
-              <a class="nav-link" href="#"> <form class="d-flex">
-                <input class="form-control mr-2 sbar" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-                <img class="mic" src="voice.png">
-              </form><span class="sr-only">(current)</span></a>
+               <a class="nav-link" href="#">
+                  <form class="d-flex">
+                     <input class="form-control mr-2 sbar" type="search" placeholder="Search" aria-label="Search">
+                    <div class="searchb">
+                     <button class="btn"><i class="fa fa-search"></i></button>
+                  </div> 
+                     <button class="mic"><i class="fa fa-microphone"></i></button>
+                  </form><span class="sr-only">(current)</span>
+               </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link cam" href="#"><img class="voice" src="cam.jpg"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><img class="voice" src="apps.png"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><img class="voice" src="bell.png"></a>
-              </li>
-            </div>
-      </nav>
-       
-<div class="container">
-    <hr>
-    <div class="videos-section">
-        <div class="videos">
-           <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center"/></a>
-           <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center"/>The title of the Video here</h5>
-           <h6 class="channel">channel name</h6>
-           <p class="detail">27k Views • 8 days ago</p>
-        </div>
-        <div class="videos">
-            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center"/></a>
-            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center"/>The title of the Video here</h5>
+               <a class="nav-link cam" href="#"><img class="voice" src="cam.jpg"></a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#"><img class="voice" src="apps.png"></a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#"><img class="voice" src="bell.png"></a>
+            </li>
+      </div>
+   </nav>
+
+   <div class="container">
+      <br><hr>
+      <div class="buttons">
+      <button type="button" class="btn btn-light">All</button>
+      <button type="button" class="btn btn-light">Music</button>
+      <button type="button" class="btn btn-light">Mixes</button>
+      <button type="button" class="btn btn-light">Deep</button>
+      <button type="button" class="btn btn-light">Gaming</button>
+      <button type="button" class="btn btn-light">HTML</button>
+      <button type="button" class="btn btn-light">Scene</button>
+      <button type="button" class="btn btn-light">JavaScript</button>
+      <button type="button" class="btn btn-light">SCI-Fi</button>
+      <button type="button" class="btn btn-light">Ambient Music</button>
+      <button type="button" class="btn btn-light">CSS Tricks</button>
+   </div>   
+      <hr>
+      <div class="videos-section">
+         <div class="videos">
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
             <h6 class="channel">channel name</h6>
             <p class="detail">27k Views • 8 days ago</p>
          </div>
          <div class="videos">
-            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center"/></a>
-            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center"/>The title of the Video here</h5>
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
             <h6 class="channel">channel name</h6>
             <p class="detail">27k Views • 8 days ago</p>
          </div>
          <div class="videos">
-            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center"/></a>
-            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center"/>The title of the Video here</h5>
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
             <h6 class="channel">channel name</h6>
             <p class="detail">27k Views • 8 days ago</p>
          </div>
          <div class="videos">
-            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center"/></a>
-            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center"/>The title of the Video here</h5>
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
             <h6 class="channel">channel name</h6>
             <p class="detail">27k Views • 8 days ago</p>
          </div>
          <div class="videos">
-            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center"/></a>
-            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center"/>The title of the Video here</h5>
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
             <h6 class="channel">channel name</h6>
             <p class="detail">27k Views • 8 days ago</p>
          </div>
          <div class="videos">
-            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center"/></a>
-            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center"/>The title of the Video here</h5>
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
             <h6 class="channel">channel name</h6>
             <p class="detail">27k Views • 8 days ago</p>
          </div>
          <div class="videos">
-            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center"/></a>
-            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center"/>The title of the Video here</h5>
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
             <h6 class="channel">channel name</h6>
             <p class="detail">27k Views • 8 days ago</p>
          </div>
          <div class="videos">
-            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center"/></a>
-            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center"/>The title of the Video here</h5>
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
             <h6 class="channel">channel name</h6>
             <p class="detail">27k Views • 8 days ago</p>
          </div>
          <div class="videos">
-            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center"/></a>
-            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center"/>The title of the Video here</h5>
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
             <h6 class="channel">channel name</h6>
             <p class="detail">27k Views • 8 days ago</p>
          </div>
          <div class="videos">
-            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center"/></a>
-            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center"/>The title of the Video here</h5>
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
             <h6 class="channel">channel name</h6>
             <p class="detail">27k Views • 8 days ago</p>
          </div>
          <div class="videos">
-            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center"/></a>
-            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center"/>The title of the Video here</h5>
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
             <h6 class="channel">channel name</h6>
             <p class="detail">27k Views • 8 days ago</p>
          </div>
          <div class="videos">
-            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center"/></a>
-            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center"/>The title of the Video here</h5>
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
             <h6 class="channel">channel name</h6>
             <p class="detail">27k Views • 8 days ago</p>
          </div>
          <div class="videos">
-            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center"/></a>
-            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center"/>The title of the Video here</h5>
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
             <h6 class="channel">channel name</h6>
             <p class="detail">27k Views • 8 days ago</p>
          </div>
          <div class="videos">
-            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center"/></a>
-            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center"/>The title of the Video here</h5>
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
             <h6 class="channel">channel name</h6>
             <p class="detail">27k Views • 8 days ago</p>
          </div>
          <div class="videos">
-            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center"/></a>
-            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center"/>The title of the Video here</h5>
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
             <h6 class="channel">channel name</h6>
             <p class="detail">27k Views • 8 days ago</p>
          </div>
-    </div>    
-</div>    
-    
+         <div class="videos">
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
+            <h6 class="channel">channel name</h6>
+            <p class="detail">27k Views • 8 days ago</p>
+         </div>
+         <div class="videos">
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
+            <h6 class="channel">channel name</h6>
+            <p class="detail">27k Views • 8 days ago</p>
+         </div>
+         <div class="videos">
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
+            <h6 class="channel">channel name</h6>
+            <p class="detail">27k Views • 8 days ago</p>
+         </div>
+         <div class="videos">
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
+            <h6 class="channel">channel name</h6>
+            <p class="detail">27k Views • 8 days ago</p>
+         </div>
+         <div class="videos">
+            <a class="video" href=""><img class="image" src="http://unsplash.it/250/150?gravity=center" /></a>
+            <h5 class="heading"><img class="logo" src="http://unsplash.it/35/35?gravity=center" />The title of the Video
+               here</h5>
+            <h6 class="channel">channel name</h6>
+            <p class="detail">27k Views • 8 days ago</p>
+         </div>
+      </div>
+   </div>
+
 </body>
+
 </html>

@@ -1,74 +1,170 @@
-*{
+* {
     margin: 0px;
 }
-.container{
-    margin-top: 70px;
+
+.container {
+    margin-top: 50px;
 }
-.nav-main{
+
+.nav-main {
     list-style: none;
     display: flex;
     justify-content: space-around;
     margin-top: 23px;
 }
-.logoyt{
+
+.fa-search {
+    font-size: 24px;
+    padding: 0px 15px;
+}
+
+.searchb > .btn {
+    border: solid 1px black;
+    height: 39px;
+    border-color: lightgrey;
+    border-left: white;
+    border-radius: 0px;
+    margin-left: -10px;
+}
+
+.logoyt {
     height: 20px;
     width: 90px;
     margin-left: 60px;
 }
-.voice, .bell{
+
+.voice,
+.bell {
     width: 34px;
     height: 34px;
 }
-.cam{
+
+.cam {
     margin-left: 100px;
 }
-.mic{
-    width:40px;
+
+.mic {
+    width: 40px;
     height: 34px;
     border-radius: 50%;
-    margin-left: 20px;
+    margin-left: 16px;
+    border-color: white;
+    border: 1px solid white;
 }
-.bell{
-   margin: 10px;
-   margin-top: 0px;
+
+.fa-microphone {
+    font-size: 18px;
 }
-.sbar{
-    width:500px;
+
+.bell {
+    margin: 10px;
+    margin-top: 0px;
 }
-.voice{
-    margin-left: 10px;
+
+.sbar {
+    width: 500px;
+    border-radius: 0px;
+    height: 39px;
 }
-.videos-section{
-    display:flex;
+
+.voice {
+    margin-left: 5px;
+}
+
+.videos-section {
+    display: flex;
     flex-wrap: wrap;
     background-color: #f0f2f5;
 }
-.videos{   
-margin: 10px;
+
+.videos {
+    margin: 10px;
 }
-.image{
+
+.image {
     background-color: grey;
 }
-.logo{
+
+.logo {
     border-radius: 50%;
     margin-top: 1rem;
-    margin-right:1rem;
+    margin-right: 1rem;
     cursor: pointer;
     background-color: grey;
 }
-h5{
+
+h5 {
     font-size: 1rem;
     cursor: pointer;
 }
-.channel{
+
+.channel {
     margin-left: 3rem;
-   font-size: 0.7rem;
-   cursor: pointer;
-   
+    font-size: 0.7rem;
+    cursor: pointer;
+
 }
-.detail{
+
+.detail {
     margin-left: 3rem;
     font-size: 0.7rem;
     margin-top: -5px;
     cursor: pointer;
+}
+
+.video {
+    background-color: gray;
+}
+.buttons{
+    display: flex;
+}
+.buttons > .btn{
+    margin: 0px 10px;
+    border-radius: 25px;
+    border-color: gray;
+   
+}
+.videos-section{
+    margin-top: -15px;
+}
+
+@media only screen and (max-width : 980px) {
+    .sbar {
+        margin-left: -20px;
+        height: 0px;
+        width: 0px;
+        border: none;
+    }
+
+    .searchb > .btn {
+        border-color: white;
+        margin-left: -30px;
+    }
+
+    .cam {
+        margin-left: 0px;
+    }
+
+    .logoyt {
+        margin-left: 0px;
+    }
+
+    .mic {
+        margin-left: -25px;
+    }
+    .buttons > .btn{
+       font-size: 15px;
+       height: 40px;
+
+    }
+}
+
+@media only screen and (max-width : 529px) {
+    .videos{
+        margin-left: 70px;
+    }
+    .image{
+        width: 300px;
+        height: 180px;
+    }
 }
