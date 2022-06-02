@@ -1,16 +1,17 @@
 * {
     margin: 0px;
 }
+body{
+    padding: 0;
+    background-color: #f0f2f5;
+}
+#videosList {
+    max-width: 600px; 
+     overflow: hidden;
+   }
 
 .container {
     margin-top: 50px;
-}
-
-.nav-main {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 23px;
 }
 
 .fa-search {
